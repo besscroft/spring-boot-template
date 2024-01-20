@@ -1,0 +1,12 @@
+springdoc:
+  api-docs:
+    enabled: ${DOC_API_ENABLE:true}
+    path: "/api-docs"
+  swagger-ui:
+    enabled: ${DOC_SWAGGER_ENABLE:true}
+    path: "/swagger-ui.html"
+  packagesToScan: dev.heming.template
+  show-actuator: ${DOC_ACTUATOR_ENABLE:true}
+  cache:
+    disabled: false
+  pre-loading-enabled: true

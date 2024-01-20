@@ -1,0 +1,8 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: spring-boot-template
+  profiles:
+    active: '@spring.active@'
